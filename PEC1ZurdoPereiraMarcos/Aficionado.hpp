@@ -12,7 +12,7 @@ class Aficionado
 {
 public:
 	//Constructor
-	Aficionado(int identificador_unico,int horallegadaminutos,bool esSocio);
+	Aficionado(int identificador_unico);
 	// Métodos get
     int getidentificador_unico();
     int gethorallegadaminutos();
