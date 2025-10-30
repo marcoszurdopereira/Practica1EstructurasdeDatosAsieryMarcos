@@ -14,7 +14,7 @@ public:
 	
 private:
 		Aficionado valor;
-		Nodocola* siguiente;
+		NodoCola* siguiente;
 		
 		
 		friend class Cola;

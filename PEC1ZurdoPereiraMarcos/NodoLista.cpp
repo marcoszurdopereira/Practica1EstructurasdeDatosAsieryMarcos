@@ -2,6 +2,8 @@
 
 NodoLista::NodoLista()
 {
+	valor=v;
+	siguiente=sig;
 }
 
 NodoLista::~NodoLista()

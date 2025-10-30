@@ -6,7 +6,7 @@
 using namespace std;
 
 
-
+//en nodopila en vez de almacenar un aficionado,almacenar un puntero a aficionado en nodopila,nodocola nodolista en conclusion Aficionado*v
 
 class NodoPila
 {

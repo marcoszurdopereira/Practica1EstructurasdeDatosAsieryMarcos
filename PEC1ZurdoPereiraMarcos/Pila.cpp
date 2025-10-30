@@ -54,6 +54,27 @@ Aficionado Pila::getLongitud()
 		return this->longitud;
 }
 
+void Pila::vaciar()  //metodo para vaciar toda la pila
+{
+    // Mientras haya elementos en la pila...
+    while (ultimo != nullptr)
+    {
+        extraer();  // ...vamos extrayendo (y eliminando) uno a uno //es llamar al metodo extraer que saca un aficionado de la pila cada vez que se le llama
+    }
+
+    // Cuando el bucle termina, la pila está completamente vacía
+    cout << "Todos los aficionados han sido eliminados de la pila." << endl;
+}
+
+
+
+bool Pila::estaVacia(){   //Permite saber si la pila tiene elementos sin tocarla
+    return ultimo == nullptr;
+}
+
+
+
+
 
 Pila::~Pila()
 {

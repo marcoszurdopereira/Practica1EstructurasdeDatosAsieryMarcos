@@ -11,6 +11,8 @@ public:
 	Aficionado cima ();
 	void mostrar();
 	Aficionado getLongitud();
+	void vaciar();  // metodo para vaciar la pila
+	bool estaVacia();//nos permite saber si la pila esta vacia
 	
 private:
 		pnodoPila ultimo;

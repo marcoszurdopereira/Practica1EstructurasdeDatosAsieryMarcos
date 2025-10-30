@@ -4,9 +4,25 @@
 class Lista
 {
 public:
-	Lista();
-	~Lista();
+    Lista();
+    ~Lista();
+    void insertarporIzquierda(Aficionado v);
+    void insertarporDerecha(Aficionado v);
+    void insertarenOrden(Aficionado v);
 
+    Aficionado eliminar();
+	
+
+    void mostrar();
+	bool estaVacialalista();
+	
+	
+	
+	
+private:
+		pnodoLista primero,ultimo;
+		
+		int longitud();
 };
 
-#endif // LISTA_HPP
+#endif // LISTA_HPP.
